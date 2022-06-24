@@ -8,4 +8,4 @@ for(let i=2; i<37; i++){
 }
 }
 
-console.log(PrimeOrNot(38));
+console.log(PrimeOrNot(37));
