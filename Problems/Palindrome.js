@@ -1,4 +1,4 @@
-let m =223322;
+function Palindrome(m){
 let n = m;
 let rev = 0;
 
@@ -8,4 +8,7 @@ while(n>0){
     n=Math.floor(n/10);
     
 }
-console.log(rev==m);
+return rev==m;
+}
+
+console.log(Palindrome(8888));
